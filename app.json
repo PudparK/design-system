@@ -1,0 +1,38 @@
+{
+  "expo": {
+    "name": "CoolNameHere Design System",
+    "slug": "coolnamehere-design-system",
+    "version": "1.0.0",
+    "description": "Standalone React Native Storybook for the CoolNameHere design system.",
+    "orientation": "portrait",
+    "icon": "./assets/images/icon.png",
+    "scheme": "coolnameheredesignsystem",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "androidStatusBar": {
+      "backgroundColor": "#F3F6F5",
+      "barStyle": "dark-content",
+      "translucent": false
+    },
+    "android": {
+      "adaptiveIcon": {
+        "backgroundColor": "#E6F4FE",
+        "foregroundImage": "./assets/images/android-icon-foreground.png",
+        "backgroundImage": "./assets/images/android-icon-background.png",
+        "monochromeImage": "./assets/images/android-icon-monochrome.png"
+      },
+      "edgeToEdgeEnabled": false,
+      "predictiveBackGestureEnabled": false
+    },
+    "web": {
+      "output": "single",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "experiments": {
+      "reactCompiler": true
+    }
+  }
+}

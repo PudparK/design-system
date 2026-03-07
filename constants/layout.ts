@@ -1,0 +1,3 @@
+export const CONTENT_HORIZONTAL_PADDING = 20;
+export const SUBPAGE_CONTENT_TOP_PADDING = 8;
+export const HEADER_HEIGHT = 56;
